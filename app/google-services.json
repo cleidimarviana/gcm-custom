@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "project_id": "recitech-1172",
+    "project_number": "918304877975",
+    "name": "ReciTech"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918304877975:android:951b6efe468e82b3",
+        "client_id": "android:androidwarriors.gcmdemo",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "androidwarriors.gcmdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918304877975-3jboaer82q9b2kjs8h0228rbielf22to.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "androidwarriors.gcmdemo",
+            "certificate_hash": "9BF4DBADE765B5AFAAF8E6D5F80FDC69AEB81949"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918304877975:android:f36173e948059ccb",
+        "client_id": "android:gcm.play.android.samples.com.gcmquickstart",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "gcm.play.android.samples.com.gcmquickstart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918304877975:android:21d77f57f5f1d445",
+        "client_id": "android:com.seamusdawkins.gcm",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.seamusdawkins.gcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918304877975:android:c99d16e644020be9",
+        "client_id": "android:com.seamusdawkins.gcmcustom",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.seamusdawkins.gcmcustom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

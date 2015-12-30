@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GCM Custom</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dlg_wait_please">Please wait...</string>
+
+    <string name="gcm_send_message">Token successfully registered! </string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+
+</resources>
