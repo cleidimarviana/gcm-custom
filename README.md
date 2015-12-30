@@ -4,11 +4,10 @@
 
 TYPE POST - https://gcm-http.googleapis.com/gcm/send
 
-HEADER
-| n        | header           | Value  |
-| ------------- |:-------------| :-----|
-| 1  | Content-Type  | application/json  |
-| 2  | Authorization  | key=AIzaSyZ-1u...0GBYzPu7U  |
+header     | value
+-------- | ---
+Content-Type | application/json
+Authorization    | key=AIzaSyZ-1u...0GBYzPu7U 
 
 BODY - RAW
 ```
@@ -19,6 +18,10 @@ BODY - RAW
      }
   }
 ```
+Support
+----
+ - [Set up a GCM Client App on Android][1]
+ - [Engage your users across Android, iOS and Chrome][2]
 
 License
 ----
@@ -27,3 +30,5 @@ MIT
 
 **Free Software, Hell Yeah!**
 
+  [1]: https://developers.google.com/cloud-messaging/android/client
+  [2]: https://developers.google.com/cloud-messaging/#sample-register
