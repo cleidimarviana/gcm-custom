@@ -1,9 +1,24 @@
 /*
- * Copyright (C) 2015 Cleidimar Viana
- * e-mail:      cleidimarviana@gmail.com
- * twitter      @cleidimarviana
- */
-
+*   The MIT License (MIT)
+*
+*   Copyright (c) 2015 Cleidimar Viana
+*
+*   Permission is hereby granted, free of charge, to any person obtaining a copy
+*   of this software and associated documentation files (the "Software"), to deal
+*   in the Software without restriction, including without limitation the rights
+*   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+*   copies of the Software, and to permit persons to whom the Software is
+*   furnished to do so, subject to the following conditions:
+*   The above copyright notice and this permission notice shall be included in all
+*   copies or substantial portions of the Software.
+*   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+*   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+*   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+*   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+*   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+*   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+*   SOFTWARE.
+*/
 package com.seamusdawkins.gcmcustom.gcm;
 
 import android.app.NotificationManager;
@@ -22,7 +37,7 @@ import com.seamusdawkins.gcmcustom.R;
 
 public class GCMListenerService extends GcmListenerService {
 
-    private static final String TAG = GCMListenerService.class.getName();
+    private static final String TAG = GCMListenerService.class.getSimpleName();
 
     /**
      * Called when message is received.
@@ -38,11 +53,11 @@ public class GCMListenerService extends GcmListenerService {
         Log.d(TAG, "From: " + from);
         Log.d(TAG, "Message: " + message);
 
-        if (from.startsWith("/topics/")) {
-            // message received from some topic.
-        } else {
-            // normal downstream message.
-        }
+//        if (from.startsWith("/topics/")) {
+//            // message received from some topic.
+//        } else {
+//            // normal downstream message.
+//        }
 
         // [START_EXCLUDE]
         /**
@@ -74,7 +89,7 @@ public class GCMListenerService extends GcmListenerService {
 
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.drawable.ic_notification)
                 .setContentTitle("GCM Message")
                 .setContentText(message)
                 .setAutoCancel(true)
