@@ -25,7 +25,7 @@ Support
 
 ## Screenshots
 
-![alt tag](https://github.com/cleidimarviana/custom-textview/blob/master/screenshots/screenshot.png "GCM Custom Layout")
+![alt tag](https://github.com/cleidimarviana/gcm-custom/blob/master/screenshots/screenshot.png "GCM Custom Layout")
 
 Feedback
 ----
